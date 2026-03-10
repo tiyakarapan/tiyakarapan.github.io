@@ -1,0 +1,9 @@
+//About me:
+- I am an aspiring Software Developer studying at IT Certification Academy(ITCA) in Durban North, KwaZulu-Natal, South Africa. I have a strong interest in problem solving and building practical applications. I enjoy learning new technologies and improving my programming skills through projects and hands-on experience.
+
+My experience includes working with languages like C#, Python, HTML, JavaScript, SQL, CSS and developing small applications that emphasize clean code, logical thinking, and efficient solutions. I am especially interested in deepening my knowledge in software design, application development, and modern programming practices.
+
+I am motivated and detail-oriented. I always look for opportunities to learn and improve. My goal is to build reliable software solutions while continuously expanding my technical skills in the software development industry.
+
+
+//
