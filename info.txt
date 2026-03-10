@@ -1,7 +1,7 @@
 //About me:
 - I am an aspiring Software Developer studying at IT Certification Academy(ITCA) in Durban North, KwaZulu-Natal, South Africa. I have a strong interest in problem solving and building practical applications. I enjoy learning new technologies and improving my programming skills through projects and hands-on experience.
 
-My experience includes working with languages like C#, Python, HTML, JavaScript, SQL, CSS and developing small applications that emphasize clean code, logical thinking, and efficient solutions. I am especially interested in deepening my knowledge in software design, application development, and modern programming practices.
+I am especially interested in deepening my knowledge in software design, application development, and modern programming practices.
 
 I am motivated and detail-oriented. I always look for opportunities to learn and improve. My goal is to build reliable software solutions while continuously expanding my technical skills in the software development industry.
 
@@ -10,4 +10,7 @@ I am motivated and detail-oriented. I always look for opportunities to learn and
 - Pomodoro Timer - a timer website application that allows a user to start a timer, with a minimum time period of 20 minutes. The user can add or remove time by intervals of 5 before the timer starts, but once the timer has been started, the user may not remove any time, only add additional time. The timer also has a quote rotator implemented to keep the user motivated. These quotes change every 5 minutes.
 
 
-//
+//My Skills And Experience
+- My experience includes working with languages like C#, Python, HTML, JavaScript, SQL, CSS and developing small applications that emphasize clean code, logical thinking, and efficient solutions.
+
+
