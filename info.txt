@@ -11,6 +11,18 @@ I am motivated and detail-oriented. I always look for opportunities to learn and
 
 
 //My Skills And Experience
+- In High School, at Northlands Girls' High School (NGHS), I studied English, Afrikaans, Mathematics, Life Orientation, History, Computer Applications Technology and Life Sciences.
 - My experience includes working with languages like C#, Python, HTML, JavaScript, SQL, CSS and developing small applications that emphasize clean code, logical thinking, and efficient solutions.
 
 
+//Take A Look At My CV
+- If you are interested in a more detailed display of my skills and experience, *CLICK HERE* to view my C.V.
+
+
+//Contact me
+- Mobile - 064 096 0877
+- E-Mail - tiya.karapan@gmail.com
+
+
+//Other Things I Want To Add
+- A footer with hyperlinks to a contact me form, like the one in the Ventakesh demo we saw.
