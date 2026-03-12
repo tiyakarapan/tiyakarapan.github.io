@@ -26,3 +26,6 @@ I am motivated and detail-oriented. I always look for opportunities to learn and
 
 //Other Things I Want To Add
 - A footer with hyperlinks to a contact me form, like the one in the Ventakesh demo we saw.
+- LinkedIn Link - https://www.linkedin.com/in/tiya-karapan-b291983b6/
+- Github Link - https://github.com/tiyakarapan
+
