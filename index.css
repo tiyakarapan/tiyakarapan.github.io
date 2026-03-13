@@ -35,8 +35,10 @@ p {
 }
 
 .img-container {
-  height: 480px;
-  width: 480px;
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 img {
@@ -46,4 +48,9 @@ img {
 
 .content-text {
   width: 50%;
+}
+
+.content-image {
+  width: 50%;
+  justify-content: center;
 }
