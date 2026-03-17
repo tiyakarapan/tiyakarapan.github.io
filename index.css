@@ -1,5 +1,8 @@
 body {
-  background-color: rgba(54, 55, 62);
+  background-image: url("assets/backgroundimage.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* fills the screen */
+  background-position: center; /* keeps it centered */
   margin: 0;
   padding: 0;
 }
@@ -64,4 +67,16 @@ img {
 .icon {
   width: 40px;
   height: 40px;
+}
+
+.row a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  margin-bottom: 10px;
 }
