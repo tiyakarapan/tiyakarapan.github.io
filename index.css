@@ -81,6 +81,10 @@ p {
   filter: invert(66%) sepia(21%) saturate(600%) hue-rotate(290deg);
 }
 
+a {
+  color: #ff6f91;
+}
+
 .row a {
   display: flex;
   align-items: center;
