@@ -1,0 +1,240 @@
+:root {
+  --bs-dark: #333333; /* Dark text/accent */
+  --bs-light: #fdfaf7; /* Off-white background */
+  --color-hero-bg: #b97652; /* Burnt orange/terracotta */
+  --color-cta: #8a4e32; /* Slightly darker CTA button */
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+}
+
+/* Custom Logo Style */
+.jostas-logo {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 700;
+  line-height: 1;
+}
+.jostas-logo span {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  display: block;
+}
+
+/* Custom Hero Styles */
+.hero-section {
+  background-color: var(--color-hero-bg);
+  position: relative;
+  overflow: hidden;
+  min-height: 550px;
+  color: var(--bs-light); /* Light text on dark background */
+  padding: 0;
+}
+
+.hero-content {
+  /* Custom padding to match mockup's left alignment */
+  padding-left: 50px;
+}
+
+/* Custom CTA Button Style */
+.cta-button-custom {
+  background-color: var(--color-cta) !important;
+  border-color: var(--color-cta) !important;
+  color: var(--bs-light) !important;
+  padding: 15px 30px;
+  font-weight: 600;
+  width: fit-content;
+}
+.cta-button-custom:hover {
+  background-color: #6d3a24 !important; /* Darker hover */
+  border-color: #6d3a24 !important;
+}
+
+/* Image Positioning */
+.hero-image-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%; /* Image takes up the right half */
+  z-index: 1;
+}
+.hero-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+/* Ensure content is above image */
+.hero-text-wrapper {
+  z-index: 2;
+  position: relative;
+}
+
+/* Custom H1 style for large, impactful text */
+.hero-text-wrapper h1 {
+  font-size: 4.5rem; /* ~72px, large size */
+  font-weight: 700;
+  line-height: 1.1;
+  max-width: 450px;
+}
+
+/* ... (Existing :root variables and body styles from the previous response) ... */
+
+/* Custom styles for the service cards */
+.service-card {
+  border: none; /* Remove default Bootstrap card border */
+  transition: transform 0.3s ease;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+.card-icon {
+  /* Placeholder for actual icon styling */
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-cta); /* Use the accent color for icons */
+  border-radius: 50%;
+  padding: 8px;
+  /* Add properties to center an actual icon inside if used */
+}
+
+.card-title {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Adjusting container padding for the cards to keep them contained */
+.services-cards-section {
+  /* Max width to keep the cards from stretching across ultra-wide screens,
+           matching the content width of the mockup */
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ... (Existing :root variables and previous styles) ... */
+
+/* Ensure secondary text is slightly lighter, matching the mockup */
+.text-secondary {
+  color: #777 !important;
+}
+
+/* Style for the Portfolio images to hide overflow and ensure cover */
+.portfolio-image-container {
+  overflow: hidden;
+}
+.portfolio-image-container img {
+  object-fit: cover;
+}
+
+/* Custom H2 sizing to match the large titles in the mockup */
+.display-6 {
+  font-size: 2.5rem; /* Slightly smaller than h1, but still dominant */
+}
+
+/* ... (Existing :root variables and previous styles) ... */
+
+/* Custom H1 for large page titles */
+.display-3 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+/* Ensure the main container is centered and uses the light background */
+.page-content-container {
+  background-color: var(--bs-light);
+}
+
+/* Style for the secondary mission headline */
+.fw-normal {
+  font-weight: 400 !important;
+}
+
+/* Ensure all images in the team and portfolio sections are placeholders */
+.team-photo-container img,
+.portfolio-thumb-container img {
+  /* If using actual images, these ensure they fit */
+  object-fit: cover;
+}
+/* ... (Existing :root variables and previous styles) ... */
+
+/* Custom style for the service blocks on this page */
+.service-block {
+  transition: box-shadow 0.3s;
+}
+.service-block:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08); /* Slight shadow on hover */
+}
+
+/* Placeholder for actual icons */
+.icon-placeholder {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  border: 1px solid var(--color-cta);
+  color: var(--color-cta);
+  border-radius: 5px;
+}
+
+/* Contact Form input styling to match the flat, slightly shadowed look */
+.form-control,
+.form-select {
+  border-radius: 5px !important;
+}
+/*.social-links a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #25D366; /* WhatsApp green as default hover color 
+}
+
+.social-links a:nth-child(2):hover {
+  color: #1877F2; /* Facebook blue 
+}
+
+.social-links a:nth-child(3):hover {
+  color: #E4405F; /* Instagram pink 
+}*/
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* center horizontally */
+  margin-top: 20px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
