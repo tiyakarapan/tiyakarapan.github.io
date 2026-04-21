@@ -197,6 +197,8 @@
                 class="form-control border-0 bg-white shadow-sm"
                 rows="3"
                 placeholder="Please provide more details about your request"
+                required
+                maxlength="240"
               ></textarea>
             </div>
 
@@ -205,16 +207,21 @@
                 type="text"
                 class="form-control mb-2 border-0 bg-white shadow-sm"
                 placeholder="Name"
+                required
+                minlength="3"
+                maxlength="20"
               />
               <input
                 type="email"
                 class="form-control mb-2 border-0 bg-white shadow-sm"
                 placeholder="Email"
+                required
               />
               <input
                 type="tel"
                 class="form-control mb-2 border-0 bg-white shadow-sm"
                 placeholder="Phone"
+                required
               />
             </div>
 
