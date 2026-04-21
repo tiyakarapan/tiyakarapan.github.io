@@ -172,6 +172,7 @@ body {
 /* Custom style for the service blocks on this page */
 .service-block {
   transition: box-shadow 0.3s;
+  height: 100%;
 }
 .service-block:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08); /* Slight shadow on hover */
